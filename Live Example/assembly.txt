@@ -1,0 +1,28 @@
+addi sp, sp, 1000
+addi a0, zero, 6
+jal ra, 8
+jal ra, 68
+
+addi sp, sp, -8
+sw a0, 4(sp)
+sw ra, 0(sp)
+
+addi t0, zero, 1
+blt t0, a0, 20
+
+addi a1, zero, 1
+lw ra, 0(sp)
+addi sp, sp, 8
+jalr s7, ra, 0
+
+addi a0, a0, -1
+jal ra, -40
+
+lw a0, 4(sp)
+lw ra, 0(sp)
+addi sp, sp, 8
+
+add a1, a1, a0
+jalr s7, ra, 0
+
+sw a1, 0(zero)
