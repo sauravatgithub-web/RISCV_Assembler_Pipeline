@@ -2,8 +2,8 @@
 
 ## Overview
 This project features two main scripts:
-- [`assembler.hpp`](#supported-instructions) – Converts RISC-V assembly to machine code.
-- [`pipeline.cpp`](#getting-started) – Simulates the execution pipeline using machine code.
+- `assembler.hpp` – Converts RISC-V assembly to machine code.
+- `pipeline.cpp` – Simulates the execution pipeline using machine code.
 
 Also included:
 - `RISCV_CARD` – A reference sheet covering instruction types and formats.
