@@ -11,11 +11,15 @@ Also included:
 
 ## Table of Contents
 - [Overview](#overview)
+- [Pipeline_Diagram](#pipeline-diagram)
 - [Supported Instructions](#supported-instructions)
 - [Additional Assembly Support](#additional-assembly-support)
 - [Getting Started](#getting-started)
 - [Other Features](#other-features)
 - [Contributing](#contributing)
+
+## Pipeline Diagram
+<img src = "Live Example/Screenshot 2025-06-07 204653.png" height="360px" />
 
 ## Supported Instructions
 
